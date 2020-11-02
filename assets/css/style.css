@@ -26,6 +26,10 @@
     background-size: cover;
 }
 */
+.my-form-card{
+ background: rgba(30,31,35,0.6);
+ border-radius:10%;
+}
 
 .bg-color-contact{
     background-image: radial-gradient(rgba(0,0,0,0.1)25%,rgba(52,152,219,0.8)), url("../images/contact-background.png");
