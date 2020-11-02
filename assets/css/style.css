@@ -1,7 +1,7 @@
 /* Font Import font-family: 'Dosis', sans-serif / 'Exo 2', sans-serif */
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Exo+2:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/*----------------------------------COLORS -- */
+/*----------------------------------COLORS & Contact Background Image-- */
 
 .bg-color-name-title{
     background: rgba(30,31,35,1);
@@ -20,17 +20,31 @@
     background: linear-gradient(rgba(30,31,35,1), #9b59b6 20%, #9b59b6 80%,rgba(30,31,35,1));
 }
 
+/*
+.bg-image-contact{
+    background: url(../images/contact-background.png) no-repeat center center;
+    background-size: cover;
+}
+*/
+
+.bg-color-contact{
+    background-image: radial-gradient(rgba(0,0,0,0.1)25%,rgba(52,152,219,0.8)), url("../images/contact-background.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .ui-menu-color-home{
-    background: radial-gradient(#e67e22 5%,rgba(30,31,35,1));
+    background: radial-gradient(#e67e22 5%,rgba(30,31,35,1)90%);
 }
 .ui-menu-color-resume{
-    background: radial-gradient(#9b59b6 5%,rgba(30,31,35,1));
+    background: radial-gradient(#9b59b6 5%,rgba(30,31,35,1)90%);
 }
 .ui-menu-color-contact{
-    background: radial-gradient(#3498db 5%,rgba(30,31,35,1));
+    background: radial-gradient(#3498db 5%,rgba(30,31,35,1)90%);
 }
 .ui-menu-color-download{
-    background: radial-gradient(#525252 5%,rgba(30,31,35,1));
+    background: radial-gradient(#525252 5%,rgba(30,31,35,1)90%);
 }
 
 
@@ -159,6 +173,21 @@ h1,h2,h3,h4{
     height: 100%;
 }
 
+.menuitem:hover i{
+    transform: rotate(20deg);
+    transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+}
+
+.social-links i:hover{
+     transform: rotate(20deg);
+    transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+}
 /*----------------------------------FOOTER -- */
 
 footer{
@@ -325,4 +354,39 @@ footer{
     border-radius: 50%;
     content: '';
     background: #fafafa;
+}
+
+.history-items{
+    margin-bottom:30px;
+}
+
+/*----------------------------------Contact Form -- */
+
+.contact-heading{
+    font-family: "Exo 2", sans-serif;
+    font-weight: 300;
+    margin-top:25px;
+    margin-bottom:20px;
+}
+
+.center-form{
+    padding-top:10px;
+    margin:0 auto;
+    max-width: 70%;
+}
+
+.center-form button{
+    margin-top:15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
+/*----------------------------------Media Queries -- */
+@media(min-width:992px){
+    .center-form{
+    padding-top:30px;
+    min-height: 240px;
+    margin:0 auto;
+    max-width: 50%;
+}
 }
