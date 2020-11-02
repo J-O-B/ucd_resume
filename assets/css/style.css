@@ -248,6 +248,20 @@ footer{
 .three-reasons-heading{
     margin-bottom:15px;
 }
+.three-reasons:hover h4{
+    transform: scale(1,2);
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+.three-reasons:hover i{
+    transform: rotate(20deg);
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
 
 /*----------------------------------Personal Info -- */
 
@@ -258,6 +272,14 @@ footer{
     margin-bottom: 20px;
     display: block;
     clear:both;
+}
+
+.personal-info-item:hover p{
+    transform: rotate(5deg);
+    transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -webkit-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
 }
 
 .personal-info-item .key,
