@@ -422,3 +422,11 @@ footer{
     max-width: 50%;
 }
 }
+@media(max-width:992px){
+.bg-color-contact{
+    background-image: radial-gradient(rgba(0,0,0,0.1)25%,rgba(52,152,219,0.8));
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+}

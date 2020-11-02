@@ -51,4 +51,4 @@ include my social media links, 'reasons to hire me', personal details such as co
 ![Information Interaction](https://github.com/J-O-B/resume-challenge/blob/master/assets/readme_assets/text_rotate.jpg)
 
 ## Design Fundamentals
-This resume was built with a mobile first approach, 
+This resume was built with a mobile first approach, some examples of how this website looks on mobile can be seen below. 
