@@ -248,15 +248,21 @@ footer{
 .three-reasons-heading{
     margin-bottom:15px;
 }
-.three-reasons:hover h4{
-    transform: scale(1,2);
+
+.three-reasons:hover i, 
+.three-reasons:focus i, 
+.three-reasons:active i {
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5); 
+    transform: rotate(20deg);
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
 }
-.three-reasons:hover i{
-    transform: rotate(20deg);
+.three-reasons:hover p, 
+.three-reasons:focus p,
+.three-reasons:active p{
+    transform: scale(1.1);
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
