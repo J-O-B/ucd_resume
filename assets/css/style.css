@@ -1,3 +1,106 @@
-.navbar{
-    float:right;
+/* Font Import font-family: 'Dosis', sans-serif / 'Exo 2', sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Exo+2:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*----------------------------------COLORS -- */
+
+.bg-color-name-title{
+    background: rgba(30,31,35,1);
+}
+
+.ui-menu-color-home{
+    background: radial-gradient(#e67e22 5%,rgba(30,31,35,1));
+}
+.ui-menu-color-resume{
+    background: radial-gradient(#9b59b6 5%,rgba(30,31,35,1));
+}
+.ui-menu-color-contact{
+    background: radial-gradient(#3498db 5%,rgba(30,31,35,1));
+}
+.ui-menu-color-download{
+    background: radial-gradient(#525252 5%,rgba(30,31,35,1));
+}
+
+/*----------------------------------HEADING -- */
+
+.header{
+    margin:0;
+}
+
+.heading{
+    margin-left:50px;
+}
+.logo{
+    background: url("../images/logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+.name{
+    font-family: "Exo 2", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    color:#fff;
+}
+.title{
+    font-family: "Dosis", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom:90px;
+    color:#fff;
+}
+.list-inline-item:not(:last-child){
+    margin:0;
+}
+.menu-container{
+    font-size:0; 
+}
+
+#nav{
+    margin:0;
+}
+
+#nav li{
+    font-size: 14px;
+    padding:0;
+}
+.menuitem{
+    height:120px;
+    text-align:center;
+    padding:0;
+}
+
+.menuitem a{
+    width:100%;
+    text-decoration: none;
+    color:#fff;
+    height:120px;
+}
+.menuitem a i{
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+.menuitem span{
+    display:block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/*----------------------------------HOVER CSS -- */
+
+.hvr-sweep-to-bottom:before{
+    background: rgba(30,31,35,0.4);
+    height: 100%;
 }
