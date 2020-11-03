@@ -13,12 +13,12 @@ will be mentioned below. These examples will list reasons why certain dimensions
 Create a resume.
 Implement UX design principles, the importance of easily accessed information, as well as easy to use navigation (suited to this project).
 
-## Percieved Use
+## Perceived Use
 As a new developer I plan on this project being used to convey my skills to a potential employer.
-A user visiting this site is percieved to visit this site based on their needs for a new developer, this means perceived users will be recruiters,
+A user visiting this site is perceived to visit this site based on their needs for a new developer, this means perceived users will be recruiters,
 HR staff etc. 
 
-With this in mind I aimed to make this project according to percived user needs.
+With this in mind I aimed to make this project according to perceived user needs.
 
 
 ## Co-Occuring Colors 
@@ -46,7 +46,7 @@ To highlight text that I feel was important, I have used a transition to grow th
 
 ##### Thought behind animations?
 I have chosen to include these animations as it adds user interaction. By including these features a user may be more interested to try and interact with 
-specific areas of the pages. Being the designer, I have purposly included design features like this in areas that I want to draw attention to. These sections
+specific areas of the pages. Being the designer, I have purposely included design features like this in areas that I want to draw attention to. These sections
 include my social media links, 'reasons to hire me', personal details such as contact information, as well as website navigation.
 
 ![Navigation Animation](https://github.com/J-O-B/resume-challenge/blob/master/assets/readme_assets/button_tilt.jpg)
