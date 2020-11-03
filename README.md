@@ -54,9 +54,11 @@ include my social media links, 'reasons to hire me', personal details such as co
 ![Information Interaction](https://github.com/J-O-B/resume-challenge/blob/master/assets/readme_assets/text_rotate.jpg)
 
 ### Design Fundamentals
-This resume was built with a mobile first approach, some examples of how this website looks on mobile can be seen below. 
+This resume was built with a mobile first approach, some examples of how this website looks on mobile can be seen below. As you can also see, some features did 
+not achieve the look I was hoping for, so therefore I added these features on desktop only.
 
 ![Portable Device Views](https://github.com/J-O-B/resume-challenge/blob/master/assets/readme_assets/device_examples.jpg)
+![Differences In Design](https://github.com/J-O-B/resume-challenge/blob/master/assets/readme_assets/all_view.jpg)
 
 ## Limitations
 At this stage of my learning certain areas are incomplete due to lack of knowledge in that area. Some of these sections are:
