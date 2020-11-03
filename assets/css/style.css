@@ -98,7 +98,7 @@ h1,h2,h3,h4{
 }
 .logo{
     background: url("../images/logo.jpg");
-    background-position: center;
+    background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
