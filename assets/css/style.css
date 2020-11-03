@@ -101,8 +101,7 @@ h1,h2,h3,h4{
     background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 100%;
-    min-height: 360px;
+    min-width: 360px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
