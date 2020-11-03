@@ -98,10 +98,10 @@ h1,h2,h3,h4{
 }
 .logo{
     background: url("../images/logo.jpg");
-    background-position: center right;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-width: 360px;
+    min-height: 300px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
